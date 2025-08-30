@@ -1,0 +1,95 @@
+.download__section__wrapper {
+    padding: 80px 20px;
+    background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+    text-align: center;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.download__content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.download__content h2 {
+    margin: 0 0 20px 0;
+    color: #8b4513;
+    font-size: 2.5rem;
+    font-family: 'Arial', sans-serif;
+    font-weight: 600;
+    text-shadow: 2px 2px 10px rgba(139, 69, 19, 0.1);
+}
+
+.download__content p {
+    margin: 0 0 40px 0;
+    color: #a0522d;
+    font-size: 1.2rem;
+    font-family: 'Arial', sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.download__button {
+    background: linear-gradient(45deg, #ff6b6b, #ee5a24);
+    border: none;
+    color: white;
+    padding: 18px 35px;
+    border-radius: 30px;
+    font-family: 'Arial', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 10px 25px rgba(255, 107, 107, 0.3);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.download__button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 15px 35px rgba(255, 107, 107, 0.4);
+}
+
+.download__button:active {
+    transform: translateY(-1px);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .download__section__wrapper {
+        padding: 60px 15px;
+    }
+    
+    .download__content h2 {
+        font-size: 2rem;
+    }
+    
+    .download__content p {
+        font-size: 1.1rem;
+        margin-bottom: 30px;
+    }
+    
+    .download__button {
+        padding: 15px 30px;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .download__content h2 {
+        font-size: 1.5rem;
+    }
+    
+    .download__content p {
+        font-size: 1rem;
+        margin-bottom: 25px;
+    }
+    
+    .download__button {
+        padding: 12px 25px;
+        font-size: 0.9rem;
+    }
+} 
